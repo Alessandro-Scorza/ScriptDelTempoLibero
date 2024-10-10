@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/percorso/dello/script/KeyboardSwitch.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Keyboard Layout Switcher
+Name=Keyboard Layout Switcher
+Comment[en_US]=Switch keyboard layout based on connected keyboard
+Comment=Switch keyboard layout based on connected keyboard
