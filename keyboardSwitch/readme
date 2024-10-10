@@ -1,0 +1,32 @@
+##SCOPO##
+Questo script controlla ogni 5 secondi se è collegato 
+un dispositivo USB specifico alla mia macchina tramite il suo ID.
+
+##CASO SPECIFICO##
+Nel mio caso d'uso è utilizzato per 
+una tastiera esterna usb con layout in inglese.
+Utilizzo il mio laptop con tastiera integrata(layout IT),
+ma, nel caso in cui collego la tastiera esterna americana,
+avevo bisogno che venisse rilevata ed impostato il layout in US.
+Una notifica con "notify-sender" a schermo mi avverte dell'accaduto.
+Il file .desktop va posizionato nella cartella 
+"/home/utente/.config/autostart" e serve per scatenare lo script 
+al login dell'utente specifico restando attivo in loop.
+
+Non stressa la cpu.
+
+
+##INFO SULLA MACCHINA##
+Testato e funzionante sul mio laptop:
+
+## Hardware Information:
+- **Memory:**                                      16.0 GiB
+- **Processor:**                                   11th Gen Intel® Core™ i3-1115G4 × 4
+
+## Software Information:
+- **OS Name:**                                     Fedora Linux 40 (Workstation Edition)
+- **OS Type:**                                     64-bit
+- **GNOME Version:**                               46
+- **Windowing System:**                            Wayland
+- **Kernel Version:**                              Linux 6.10.11-200.fc40.x86_64
+
