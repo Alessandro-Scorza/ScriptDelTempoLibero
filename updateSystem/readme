@@ -1,0 +1,17 @@
+Questo è un semplice script che aggiorna le applicazione installate
+con flatpak e dnf su una distribuzione fedora workstation e
+ripulisce i pacchetti non utilizzati da ambedue i sistemi
+di gestione dei pacchetti residui di installazioni di app
+non più utilizzate
+
+Ho poi creato un alias dentro il mio file .bashrc
+con alias aggiorna='bash /home/directory/UpdateSystem.sh'
+
+Così facendo basta scrivere "aggiorna" sul terminale ed inserire
+la password di root (necessaria per dnf) e verrà eseguito 
+Verrà scritto anche un log con la data nel nome del file ed
+all'interno l'orario specifico di quando è stato eseguito
+Ricordarsi ogni tanto di ripulire questi piccoli file e di 
+dare il permesso chmod +x allo script per renderlo eseguibile
+
+
